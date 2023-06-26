@@ -82,9 +82,9 @@ Displaying debits:
 GIVEN I am on the Credits page
 WHEN I view the Credits display area
 THEN I should see all of my Credits displayed
-AND each Debit should display a Debit description
-AND each Debit should display a Debit amount
-AND each Debit should display a Debit date
+AND each Credit should display a Credit description
+AND each Credit should display a Credit amount
+AND each Credit should display a Credit date
 ```
 
 ```text
@@ -99,11 +99,11 @@ THEN I should see my Account Balance displayed
 Adding Credits:
 
 GIVEN I am on the Credits page
-WHEN I enter a new Debit description
-AND WHEN I enter a new Debit amount
-AND WHEN I click 'Add Debit'
-THEN I should see my new debit added to the Credits display area with the current date
-AND I should see my Account Balance updated to reflect the new Debit
+WHEN I enter a new Credit description
+AND WHEN I enter a new Credit amount
+AND WHEN I click 'Add Credit'
+THEN I should see my new Credit added to the Credits display area with the current date
+AND I should see my Account Balance updated to reflect the new Credit
 ```
 
 ```text
